@@ -1,0 +1,101 @@
+
+/*==================== Banner Style Start ==================== */
+#banner .banner-slider{background:#FB0000; position:relative;min-height:460px;}
+#banner .slick-list{height: 100%;}
+#banner .slide-div,#banner .slick-track {position:relative;height: 100%;}
+#banner .banner-content{position:relative; top:50%; left:0; width:100%; z-index:10;}
+#banner .slide-div h1{ color:#fff; text-transform:uppercase; font-size:37px;}
+#banner .slide-div p { color:#fff; text-transform:uppercase; font-size:18px;}
+#banner .slick-prev,
+#banner .slick-next{ height:60px; width:60px; background:#FB7C7C;color:#fff; border-radius:0; box-shadow:none;border-radius: 50px; border:none;}
+#banner .slick-prev:hover,
+#banner .slick-next:hover,
+#banner .slick-prev:focus,
+#banner .slick-next:focus{ background:#270804; color:#fff;}
+#banner .slick-prev::before,
+#banner .slick-next::before{ font-size:28px; height:60px; width:60px;}
+#banner .slick-prev{ left:3%;}
+#banner .slick-next{ right:3%;}
+/*==================== Banner Style End ==================== */
+
+@media (max-width: 991px) {
+    #banner .banner-slider {}
+}
+
+@media (max-width: 767px) {
+    .categories-slider .product-box { margin: 0px !important;}
+    .navbar-brand img { max-width: 95px;}
+    .offer-box img { height: 220px;object-fit: contain;}
+    #banner .banner-slider {
+        height: 420px !important;
+        text-align: center;}
+    #banner .slide-div h1 { font-size: 20px;
+        line-height: 1.4;
+        padding: 0px 40px;}
+    #banner .slide-div p { font-size: 14px;}
+    .product_image img {
+        display: block;
+        position: relative;
+        max-width: 60%;
+        /* padding: 10px 5px 5px 5px; */
+        margin-top: 7rem;
+    }
+    .fix-title{
+        margin-top: 30%;
+    }
+}
+@media (min-width: 767px) {
+    .product_image img {
+        display: block;
+        position: relative;
+        max-width: 55%!important;
+        /* padding: 10px 5px 5px 5px; */
+        margin-top: 3rem;
+    }
+
+}
+.footer {
+    background: url(../images/footer-img.jpg) no-repeat right center;
+    background-size: cover;
+    color: rgba(255,255,255,0.6);
+}
+.banner_background {
+    background: url(../images/cover.jpg) no-repeat right center;
+    background-size: cover;
+    color: rgba(255,255,255,0.6);
+}
+@media (min-width: 992px){
+    .banner-title {
+        margin-left: 59.333333%;
+    }
+    .box-img{
+        width: 17.4rem;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .char_col:not(:last-child):not(:nth-child(3)) {
+        margin-bottom: 132px;
+    }
+    .box-img{
+        width: 21.8rem;
+    }
+}
+@media only screen and (max-width: 767px){
+
+    .char_col:nth-child(3) {
+        margin-bottom: 22px;
+    }
+    .char_col:not(:last-child):not(:nth-child(3)) {
+        margin-bottom: 22px;
+    }
+    .box-img{
+        width: 20.8rem;
+    }
+}
+
+.box-style{
+    box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+    border: solid 1px #e8e8e8;
+    padding: 6px;
+}

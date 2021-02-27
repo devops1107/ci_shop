@@ -1,0 +1,28 @@
+/****** General Styles *********/
+body {...}
+h1, h2, h3 {..}
+p {...}
+a {...}
+	 
+/****** Header Style *********/
+header {...}
+	 
+/****** Navigation Style *********/
+nav {...}
+ 
+/****** Footer Style *********/
+footer {...}
+
+/****** Responsive Style *********/
+
+@media (min-width: 768px) {
+		
+}
+
+@media (max-width: 480px) {
+		
+}
+
+@media (max-width: 320px) {
+		
+}
